@@ -1,0 +1,173 @@
+Last login: Mon Nov 30 22:59:20 on ttys000
+jessieshanks ~
+$ cd kitchen
+jessieshanks ~/kitchen
+$ ls
+cans.txt	fridge/		pantry/
+jessieshanks ~/kitchen
+$ tree
+.
+├── cans.txt
+├── fridge
+│   ├── diapers.txt
+│   ├── freezer
+│   │   ├── couch.txt
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   ├── milk.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       ├── egg-shells.txt
+│       └── sink
+│           ├── clean-dishes.txt
+│           ├── delete-me.txt
+│           └── dirty-dishes.txt
+└── pantry
+    ├── cans.txt
+    ├── cereal.txt
+    └── crisper-drawer
+        └── lettuce.txt
+
+6 directories, 15 files
+jessieshanks ~/kitchen
+$ mv ~/kitchen/fridge/trashcan ~/kitchen/trashcan
+/Users/jessieshanks/kitchen/fridge/trashcan -> /Users/jessieshanks/kitchen/trashcan
+jessieshanks ~/kitchen
+$ mv ~/kitchen/trashcan/sink ~/kitchen/sink
+/Users/jessieshanks/kitchen/trashcan/sink -> /Users/jessieshanks/kitchen/sink
+jessieshanks ~/kitchen
+$ mv ~/kitchen/pantry/crisper-drawer ~/kitchen/fridge/crisper-drawer
+/Users/jessieshanks/kitchen/pantry/crisper-drawer -> /Users/jessieshanks/kitchen/fridge/crisper-drawer
+jessieshanks ~/kitchen
+$ mkdir ~kitchen/sink/drying-rack
+jessieshanks ~/kitchen
+$ tree
+.
+├── cans.txt
+├── fridge
+│   ├── crisper-drawer
+│   │   └── lettuce.txt
+│   ├── diapers.txt
+│   ├── freezer
+│   │   ├── couch.txt
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   └── milk.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── clean-dishes.txt
+│   ├── delete-me.txt
+│   └── dirty-dishes.txt
+├── trashcan
+│   ├── banana-peels.txt
+│   ├── chicken-bones.txt
+│   └── egg-shells.txt
+└── ~kitchen
+    └── sink
+        └── drying-rack
+
+9 directories, 15 files
+jessieshanks ~/kitchen
+$ rm -r ~/kitchen/~kitchen
+/Users/jessieshanks/kitchen/~kitchen/sink/drying-rack
+/Users/jessieshanks/kitchen/~kitchen/sink
+/Users/jessieshanks/kitchen/~kitchen
+jessieshanks ~/kitchen
+$ mkdir ~/kitchen/sink/drying-rack
+jessieshanks ~/kitchen
+$ tree
+.
+├── cans.txt
+├── fridge
+│   ├── crisper-drawer
+│   │   └── lettuce.txt
+│   ├── diapers.txt
+│   ├── freezer
+│   │   ├── couch.txt
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   └── milk.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── clean-dishes.txt
+│   ├── delete-me.txt
+│   ├── dirty-dishes.txt
+│   └── drying-rack
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+7 directories, 15 files
+jessieshanks ~/kitchen
+$ rm -r ~/kitchen/cans.txt ~/kitchen/fridge/diapers.txt ~kitchen/fridge/freezer/couch.txt ~/kitchen/sink/delete-me.txt
+/Users/jessieshanks/kitchen/cans.txt
+/Users/jessieshanks/kitchen/fridge/diapers.txt
+rm: ~kitchen/fridge/freezer/couch.txt: No such file or directory
+/Users/jessieshanks/kitchen/sink/delete-me.txt
+jessieshanks ~/kitchen
+$ tree
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   └── lettuce.txt
+│   ├── freezer
+│   │   ├── couch.txt
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   └── milk.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── clean-dishes.txt
+│   ├── dirty-dishes.txt
+│   └── drying-rack
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+7 directories, 12 files
+jessieshanks ~/kitchen
+$ rm -r ~/kitchen/fridge/freezer/couch.txt
+/Users/jessieshanks/kitchen/fridge/freezer/couch.txt
+jessieshanks ~/kitchen
+$ touch ~/kitchen/crisper-drawer/apples.txt 
+touch: /Users/jessieshanks/kitchen/crisper-drawer/apples.txt: No such file or directory
+jessieshanks ~/kitchen
+$ touch ~/kitchen/fridge/crisper-drawer/apples.txt
+jessieshanks ~/kitchen
+$ mv ~/kitchen/sink/clean-dishes.txt ~/kitchen/sink/drying-rack/clean-dishes.txt
+/Users/jessieshanks/kitchen/sink/clean-dishes.txt -> /Users/jessieshanks/kitchen/sink/drying-rack/clean-dishes.txt
+jessieshanks ~/kitchen
+$ tree
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   ├── freezer
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   └── milk.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── dirty-dishes.txt
+│   └── drying-rack
+│       └── clean-dishes.txt
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+7 directories, 12 files
+jessieshanks ~/kitchen
+$ 
