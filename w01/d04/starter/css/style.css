@@ -1,6 +1,6 @@
 
 body {
-  margin: 5% 5% 5% 5%;
+  margin: 0% 0% 0% 0%;
 }
 
 .header {
@@ -9,11 +9,25 @@ body {
   height: 30%;
 }
 
-.header ul {
-  display:inline;
-  list-style-type: none;
+//#banner {
+//  background-size: cover;
+//  text-align: center;
+//  height: 30%
+//  width: 100%;
+//}
+
+#newsTable {
+  font-size: 32px;
+  font-style: bold;
+  color: #00d6dd;
 }
 
-#bannerimage {
-  overflow: hidden;
+#newsTable tbody tr td, #newsTable tbody tr th, #newsTable thead tr th {
+  border:none;
+}
+
+.bgimage {
+background-image: url(images/background.png);
+background-size: 100%;
+overflow: auto;
 }
