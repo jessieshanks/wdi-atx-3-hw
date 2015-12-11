@@ -3,6 +3,7 @@
 // You can have your adventure play out using alerts or in the console using console.log().
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 // Notes to store info for later use in the game:
@@ -128,3 +129,5 @@ if (firstChoice()==="R") {
 
 =======
 >>>>>>> hw-w02d03
+=======
+>>>>>>> ec56924331b31579bfe799d7b11473d4c3e2d21b
