@@ -2,6 +2,7 @@
 // One way to get input is to use the prompt() command
 // You can have your adventure play out using alerts or in the console using console.log().
 
+<<<<<<< HEAD
 
 
 // Notes to store info for later use in the game:
@@ -125,3 +126,5 @@ if (firstChoice()==="R") {
 
 
 
+=======
+>>>>>>> hw-w02d03

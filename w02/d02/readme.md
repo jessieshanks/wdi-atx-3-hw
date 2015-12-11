@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Choose Your Own Adventure!
+=======
+# Choose Your Own Adventure!!!
+>>>>>>> hw-w02d03
 
 1. Rules
 2. Sample Ideas
@@ -65,4 +69,8 @@
                     - `T`ake her
                         - Interesting choice. Unfortunately the Doc can't grab Clara and get back to the car in time. He ends up staying in 1855 with her.
                     - `L`eave her
+<<<<<<< HEAD
                         - Smart choice. Unfortunately the Doc was deeply in love with Clara, and when he gets back to 1985 he becomes very depressed.
+=======
+                        - Smart choice. Unfortunately the Doc was deeply in love with Clara, and when he gets back to 1985 he becomes very depressed.
+>>>>>>> hw-w02d03
