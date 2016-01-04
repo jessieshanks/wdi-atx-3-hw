@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 // Notes to store info for later use in the game:
@@ -131,3 +132,5 @@ if (firstChoice()==="R") {
 >>>>>>> hw-w02d03
 =======
 >>>>>>> ec56924331b31579bfe799d7b11473d4c3e2d21b
+=======
+>>>>>>> bd5ce8011bfeea0675790c464dd26a2108fb6980

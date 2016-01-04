@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -47,6 +48,8 @@ function deckDisplay (deck) {
 
 // Fisher-Yates Shuffle
 =======
+=======
+>>>>>>> bd5ce8011bfeea0675790c464dd26a2108fb6980
 // 1. Make the function deck_o_cards assemble an array of cards using the provided suits and values arrays. 
 // Each card in the deck should be an object formatted as: {suit: 'hearts', value: 'A'}
 function deck_o_cards() {
@@ -65,7 +68,10 @@ function deck_o_cards() {
 }
 
 // Fisher-Yates Shuffle 
+<<<<<<< HEAD
 >>>>>>> ec56924331b31579bfe799d7b11473d4c3e2d21b
+=======
+>>>>>>> bd5ce8011bfeea0675790c464dd26a2108fb6980
 // http://stackoverflow.com/a/6274398
 function shuffle(array) {
     var counter = array.length, temp, index;
@@ -86,7 +92,11 @@ function shuffle(array) {
 
     return array;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> ec56924331b31579bfe799d7b11473d4c3e2d21b
+=======
+}
+>>>>>>> bd5ce8011bfeea0675790c464dd26a2108fb6980

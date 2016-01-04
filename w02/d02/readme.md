@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Choose Your Own Adventure!
 =======
 # Choose Your Own Adventure!!!
@@ -7,6 +8,9 @@
 =======
 # Choose Your Own Adventure!!!
 >>>>>>> ec56924331b31579bfe799d7b11473d4c3e2d21b
+=======
+# Choose Your Own Adventure!!!
+>>>>>>> bd5ce8011bfeea0675790c464dd26a2108fb6980
 
 1. Rules
 2. Sample Ideas
@@ -75,6 +79,7 @@
                     - `L`eave her
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         - Smart choice. Unfortunately the Doc was deeply in love with Clara, and when he gets back to 1985 he becomes very depressed.
 =======
                         - Smart choice. Unfortunately the Doc was deeply in love with Clara, and when he gets back to 1985 he becomes very depressed.
@@ -82,3 +87,6 @@
 =======
                         - Smart choice. Unfortunately the Doc was deeply in love with Clara, and when he gets back to 1985 he becomes very depressed.
 >>>>>>> ec56924331b31579bfe799d7b11473d4c3e2d21b
+=======
+                        - Smart choice. Unfortunately the Doc was deeply in love with Clara, and when he gets back to 1985 he becomes very depressed.
+>>>>>>> bd5ce8011bfeea0675790c464dd26a2108fb6980
