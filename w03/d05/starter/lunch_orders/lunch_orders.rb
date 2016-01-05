@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $orders = {}
 
 def print_divider
@@ -53,3 +54,6 @@ end
 header
 new_order
 print_orders
+=======
+orders = {}
+>>>>>>> 28ef0f1ab202eb69d978f75cc7bb8b2a60506f1f

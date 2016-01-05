@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 //Global variables
 var transaction;
@@ -58,6 +59,8 @@ $(document).ready(function() {
 
 
 =======
+=======
+>>>>>>> 28ef0f1ab202eb69d978f75cc7bb8b2a60506f1f
 //Begin with the document ready function
 
 	//Begin work on the Checking Account
@@ -107,5 +110,8 @@ $(document).ready(function() {
 // Bonus-- get the two accounts to work with each other and allow for overdraft protection
 
 // Double Bonus-- This isnt very DRY.  Using the keyword "this" see if you can make the withdraw and deposit functions work for both accounts
+<<<<<<< HEAD
 >>>>>>> bd5ce8011bfeea0675790c464dd26a2108fb6980
+=======
+>>>>>>> 28ef0f1ab202eb69d978f75cc7bb8b2a60506f1f
 

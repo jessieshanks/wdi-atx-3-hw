@@ -1,4 +1,5 @@
 function romanize(number){
+<<<<<<< HEAD
     var matches = {
         1: "I",
         2: "II",
@@ -70,3 +71,18 @@ while ((arabicNumeral<1)||(arabicNumeral>3999)) {
 }
 alert(arabicNumeral+" = "+romanize(arabicNumeral));
 
+=======
+  var matches = {
+    1: "I",
+    2: "II",
+    3: "III",
+    4: "IV",
+    5: "V",
+    6: "VI",
+    7: "VII",
+    8: "VIII",
+    9: "IX",
+    10: "X"
+  }
+}
+>>>>>>> 28ef0f1ab202eb69d978f75cc7bb8b2a60506f1f

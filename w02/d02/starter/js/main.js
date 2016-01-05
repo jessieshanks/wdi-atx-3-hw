@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 // Notes to store info for later use in the game:
@@ -134,3 +135,5 @@ if (firstChoice()==="R") {
 >>>>>>> ec56924331b31579bfe799d7b11473d4c3e2d21b
 =======
 >>>>>>> bd5ce8011bfeea0675790c464dd26a2108fb6980
+=======
+>>>>>>> 28ef0f1ab202eb69d978f75cc7bb8b2a60506f1f
